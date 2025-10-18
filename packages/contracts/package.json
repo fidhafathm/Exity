@@ -1,0 +1,30 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "Solana smart contracts for tokenizing private equity LP stakes, built with Anchor.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "@types/chai": "^5.2.2",
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
+    "chai": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.2",
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.7.2"
+  }
+}

@@ -35,6 +35,16 @@
     "prepare": "husky install",
     "clean": "pnpm --filter \"./packages/**\" clean && rm -rf node_modules"
   },
+  "dependencies": {
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "@solana/wallet-adapter-base": "^0.9.23",
+  "@solana/wallet-adapter-react": "^0.15.35",
+  "@solana/wallet-adapter-react-ui": "^0.9.35",
+  "@solana/wallet-adapter-wallets": "^0.19.26",
+  "@solana/web3.js": "^1.73.0",
+  "axios": "^1.4.0"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
